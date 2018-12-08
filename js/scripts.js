@@ -13,3 +13,15 @@ const hexadecimalIntegers = ["0","1","2","3","4","5","6","7","8","9","a","b","c"
 const lengthOfArray = hexadecimalIntegers.length; // Get the lenth of hexadecimalIntegers array
 
 const randomNumber = Math.floor(Math.random() * lengthOfArray); // Randomly pick a number, no larger than the length of hexadecimalIntegers
+
+function createColor() {
+  // let hexColorValue = #
+  let hexColorR = hexadecimalIntegers[randomNumber];
+  let hexColorG = hexadecimalIntegers[randomNumber];
+  let hexColorB = hexadecimalIntegers[randomNumber];
+  console.log("The background-color is: " + "#" + hexColorR + hexColorR + hexColorG + hexColorG + hexColorB + hexColorB);
+  // let body = document.querySelector("body"); // Target the body element
+  // body.setAttribute('style', 'background-color: ' + hexColor);
+}
+
+createColor();
