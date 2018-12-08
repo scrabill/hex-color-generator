@@ -16,10 +16,11 @@ const randomNumber = Math.floor(Math.random() * lengthOfArray); // Randomly pick
 
 function createColor() {
   // let hexColorValue = #
-  let hexColorR = hexadecimalIntegers[randomNumber];
-  let hexColorG = hexadecimalIntegers[randomNumber];
-  let hexColorB = hexadecimalIntegers[randomNumber];
-  console.log("The background-color is: " + "#" + hexColorR + hexColorR + hexColorG + hexColorG + hexColorB + hexColorB);
+  // let hexColorR = hexadecimalIntegers[randomNumber];
+  // let hexColorG = hexadecimalIntegers[randomNumber];
+  // let hexColorB = hexadecimalIntegers[randomNumber];
+  let hexColor = hexadecimalIntegers[randomNumber];
+  console.log("The background-color is: " + hexColor);
   // let body = document.querySelector("body"); // Target the body element
   // body.setAttribute('style', 'background-color: ' + hexColor);
 }
