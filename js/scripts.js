@@ -3,7 +3,7 @@ generateRandomHexColor = () => {
   let hexColor = "#"
 
   while (hexColor.length < 7) {
-    hexColor += hexadecimalIntegers[ Math.round( Math.random() * hexadecimalIntegers.length ) ]
+    hexColor += hexadecimalIntegers[ Math.floor( Math.random() * hexadecimalIntegers.length ) ]
   }
 
   return hexColor
