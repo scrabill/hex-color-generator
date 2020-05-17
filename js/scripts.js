@@ -1,3 +1,6 @@
+let body = document.querySelector("body")
+let currentColor = ''
+
 generateRandomHexColor = () => {
   const hexadecimalIntegers = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
   let hexColor = "#"
@@ -6,7 +9,10 @@ generateRandomHexColor = () => {
     hexColor += hexadecimalIntegers[ Math.round( Math.random() * hexadecimalIntegers.length ) ]
   }
 
-  console.log(hexColor)
+  return hexColor
 }
 
-generateRandomHexColor()
+document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    document.querySelector("body").style.backgroundColor = generateRandomHexColor()
+});
