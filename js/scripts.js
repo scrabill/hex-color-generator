@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.querySelector("body").style.backgroundColor = currentColor
     document.querySelector("h2").innerText = currentColor
 });
+
+document.addEventListener('click', (event) => {
+
+    let currentColor = generateRandomHexColor()
+
+    document.querySelector("body").style.backgroundColor = currentColor
+    document.querySelector("h2").innerText = currentColor
+});
