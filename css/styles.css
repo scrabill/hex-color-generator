@@ -1,0 +1,18 @@
+body {
+  text-align:center;
+  margin: 15% 0;
+  font-family: 'Work Sans', sans-serif;
+  color: #00000095
+}
+
+h1,h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
