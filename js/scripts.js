@@ -19,9 +19,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('click', (event) => {
+    console.log(event.target.tagName)
 
     let currentColor = generateRandomHexColor()
 
-    document.querySelector("body").style.backgroundColor = currentColor
-    document.querySelector("h2").innerText = currentColor
+    if (event.target.tagName != "H2") {
+      document.querySelector("body").style.backgroundColor = currentColor
+      document.querySelector("h2").innerText = currentColor
+    }
+
 });
