@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  margin: 15% 0;
+  margin: 30vh 0;
   font-family: 'Work Sans', sans-serif;
   color: #00000095
 }
@@ -17,7 +17,7 @@ footer {
   text-align: center;
   padding: ;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 h1,h2 {
@@ -25,9 +25,9 @@ h1,h2 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 5em;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 3em;
 }
