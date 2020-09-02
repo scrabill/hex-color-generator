@@ -10,8 +10,6 @@ generateRandomHexColor = () => {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-
     let currentColor = generateRandomHexColor()
 
     document.querySelector("body").style.backgroundColor = currentColor
@@ -19,8 +17,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('click', (event) => {
-    console.log(event.target.tagName)
-
     let currentColor = generateRandomHexColor()
 
     if (event.target.tagName != "H2") {
