@@ -5,11 +5,29 @@ body {
   color: #00000095
 }
 
+main {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    width: 90%;
+  }
+}
+
 a, a:visited {
   border-bottom: 3px solid #00000095;
   color: #00000095;
   font-weight: bold;
   text-decoration: none;
+}
+
+#uses {
+  top: 1vh;
+  position: absolute;
+  left: 95vw;
 }
 
 footer {
@@ -30,4 +48,9 @@ h1 {
 
 h2 {
   font-size: 3em;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
