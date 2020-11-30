@@ -5,16 +5,14 @@ body {
   color: #00000095
 }
 
-main {
+main, footer {
   width: 60%;
   margin: 0 auto;
   text-align: left;
 }
 
-@media screen and (max-width: 900px) {
-  main {
-    width: 90%;
-  }
+.center {
+  text-align: center;
 }
 
 a, a:visited {
@@ -33,9 +31,7 @@ a, a:visited {
 footer {
   position: absolute;
   text-align: center;
-  padding: ;
   bottom: 0;
-  width: 100vw;
 }
 
 h1,h2 {
@@ -53,4 +49,10 @@ h2 {
 p {
   font-size: 1.3em;
   line-height: 1.5em;
+}
+
+@media screen and (max-width: 900px) {
+  main, footer {
+    width: 90%;
+  }
 }
